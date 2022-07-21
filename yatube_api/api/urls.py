@@ -1,6 +1,6 @@
+from api.views import CommentViewSet, FollowViewSet, GroupViewSet, PostViewSet
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
-from api.views import CommentViewSet, PostViewSet, GroupViewSet, FollowViewSet
 
 app_name = 'api'
 
